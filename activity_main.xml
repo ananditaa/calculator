@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlack">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add2numbers"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:textColor="@color/colorWhite"
+        android:paddingRight="15dp"
+        android:textSize="45sp"
+        android:paddingEnd="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/resultnumber"
+        android:textAlignment="textEnd"
+        android:paddingRight="15dp"
+        android:gravity="end"
+        android:textSize="45sp"
+        android:textColor="@color/colorWhite"
+        android:paddingEnd="15dp"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sevenno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/seven"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/eightno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/eight"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/nineno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/nine"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/div_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/div"
+            android:textSize="50sp"
+            android:background="@drawable/ripple_effect_numbers"
+            android:textColor="@color/colorWhite"
+
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fourno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/four"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/fiveno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/five"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/sixno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/six"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/mult_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/mult"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oneno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/one"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/twono_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/two"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/threeno_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/three"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/diff_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/diff"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dec_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/dec"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/zero_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/equal_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/equal"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/red_button"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/add_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:textSize="50sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/ripple_effect_numbers"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_id"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textSize="50sp"
+            android:background="@drawable/ripple_effect_numbers"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+</LinearLayout>
